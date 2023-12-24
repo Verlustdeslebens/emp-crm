@@ -1,0 +1,457 @@
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sidenav {
+    width: 105px;
+    height: 100%;
+    background-color: #1B1A40;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 5px 1px 1px rgba(27, 26, 64, 0.123),
+    10px 2px 2px rgba(27, 26, 64, 0.05),
+    15px 4px 4px rgba(27, 26, 64, 0.05),
+    20px 8px 8px rgba(27, 26, 64, 0.12),
+    30px 16px 16px rgba(27, 26, 64, 0.05);
+}
+
+.sidenav a {
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #1B1A40;
+    padding: 10px;
+    margin: 15px 16px 35px;
+    border-radius: 10px;
+    color: black;
+    text-align: center;
+    transition: 0.8s;
+
+}
+
+.sidenav a:hover {
+    transform: translateY(-3px);
+    background: #413D99;
+    color: #fff;
+}
+
+
+.logo12 {
+    margin: 10px 11px;
+    padding: 20px;
+}
+
+.sebalsya {
+    margin-left: 145px;
+    margin-top: -54px;
+    padding: 10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bolder;
+    font-size: 43px;
+    height: 52px;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 20px;
+}
+
+
+
+section {
+    margin-top: 85px;
+    margin-left: 170px;
+    
+}
+
+.seca {
+    margin-left: 900px;
+    margin-top: -492px;
+}
+
+.seca1 {
+    margin-left: 900px;
+    margin-top: 81px;
+}
+
+
+
+
+article {
+    background-color: #F6F7F8;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    margin: 0.5em;
+    padding: 1em;
+    width: 345px;
+    height: 256px;
+    box-shadow: 7px 0px 0px #1B1A40;
+    margin-left: -18px;
+    margin-top: -63px;
+    
+}
+
+
+
+
+.ten {
+    width: 324px;
+    border-radius: 10px;
+    box-shadow: 5px 1px 1px rgba(27, 26, 64, 0.123),
+    10px 2px 2px rgba(27, 26, 64, 0.05),
+    15px 4px 4px rgba(27, 26, 64, 0.05),
+    20px 8px 8px rgba(27, 26, 64, 0.12),
+    30px 16px 16px rgba(27, 26, 64, 0.05);
+}
+
+.ten1 {
+    width: 324px;
+    height: 255px;
+    border-radius: 10px;
+    box-shadow: 5px 1px 1px rgba(27, 26, 64, 0.123),
+    10px 2px 2px rgba(27, 26, 64, 0.05),
+    15px 4px 4px rgba(27, 26, 64, 0.05),
+    20px 8px 8px rgba(27, 26, 64, 0.12),
+    30px 16px 16px rgba(27, 26, 64, 0.05);
+}
+
+
+
+.rasto {
+    height: 51px;
+    margin-top: -10px;
+    margin-left: 5px;
+}
+
+.rasto1 {
+    height: 80px;
+    display: grid;
+    justify-content: center;
+}
+
+.rasto1 input {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    border: none;
+    border-radius: 15px;
+    width: 110px;
+    height: 35px;
+    box-shadow: 1px 3px 2px 1px #cfcfcf;
+    padding: 0 0px 0 25px;
+    margin-left: 45px;
+}
+
+
+
+
+input {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    width: 122px;
+    height: 34px;
+    box-shadow: 1px 3px 2px 1px #cfcfcf;
+    padding: 0 35px 0 45px;
+    margin-left: 190px;
+    margin-top: 6px;
+}
+
+::placeholder {
+    font-size: 14;
+    color: rgb(94, 94, 94);
+    font-family: 'Inter', sans-serif;
+}
+
+.inputhuiba {
+    margin-top: -185px;
+}
+
+.namemen {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    border: none;
+    border-radius: 15px;
+    width: 345px;
+    height: 35px;
+    box-shadow: 1px 3px 2px 1px #cfcfcf;
+    padding: 0 27px 0 67px;
+    margin-left: 152px;
+    margin-top: 38px;
+}
+
+.namemen1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    border: none;
+    border-radius: 15px;
+    width: 345px;
+    height: 35px;
+    box-shadow: 1px 3px 2px 1px #cfcfcf;
+    padding: 0 27px 0 100px;
+    margin-left: 380px;
+    margin-top: 38px;
+}
+
+
+
+:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+label {
+    font-weight: bold;
+    color: #1B1A40;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+}
+
+.gusi {
+    font-weight: bold;
+    color: #1B1A40;
+    font-size: 14px;
+    margin-top: -36px;
+}
+
+button {
+    width: 120px;
+    height: 33px;
+    border-radius: 60px;
+    background: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+    box-shadow: 1px 3px 2px 1px #cfcfcf;
+}
+
+.button :hover {
+    transform: translateY(-3px);
+    background: #413D99;
+    color: #fff;
+}
+
+.kponka {
+    width: 105px;
+    height: 100%;
+    margin-top: 15px;
+}
+
+.kponka a {
+    display: block;
+    text-decoration: none;
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 5px 4px 13px;
+    border-radius: 10px;
+    color: black;
+    text-align: center;
+    transition: 0.8s;
+    width: 120px;
+    height: 34px;
+    font-size: 10px;
+    font-weight: 600;
+    box-shadow: 1px 3px 2px 1px #cfcfcf;
+}
+
+.kponka1 {
+    width: 105px;
+    height: 100%;
+    margin-top: -6px;
+}
+
+.kponka1 a {
+    display: block;
+    text-decoration: none;
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 5px 4px 13px;
+    border-radius: 10px;
+    color: black;
+    text-align: center;
+    transition: 0.8s;
+    width: 120px;
+    height: 34px;
+    font-size: 10px;
+    font-weight: 600;
+    box-shadow: 1px 3px 2px 1px #cfcfcf;
+}
+
+
+.kponka a:hover {
+    transform: translateY(-3px);
+    background: #413D99;
+    color: #fff;
+}
+
+.kponka1 a:hover {
+    transform: translateY(-3px);
+    background: #413D99;
+    color: #fff;
+}
+
+
+
+.ushel {
+    margin-top: -329px;
+    margin-left: 427px;
+}
+
+.tentime {
+    margin-top: -890px;
+    margin-left: 930px;
+    width: 271px;
+    border-radius: 10px;
+    box-shadow: 5px 1px 1px rgba(27, 26, 64, 0.123),
+    10px 2px 2px rgba(27, 26, 64, 0.05),
+    15px 4px 4px rgba(27, 26, 64, 0.05),
+    20px 8px 8px rgba(27, 26, 64, 0.12),
+    25px 16px 16px rgba(27, 26, 64, 0.05);
+}
+
+.galka {
+    margin-top: 14px;
+    margin-left: -16px;
+}
+
+.textart {
+    display: flex;
+    justify-content: center;
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: -7px;
+    margin-left: -1px;
+    color: #1B1A40;
+    font-family: 'Inter', sans-serif;
+}
+
+.textart1 {
+    display: flex;
+    justify-content: center;
+    font-size: 9px;
+    font-weight: bold;
+    margin-top: -2px;
+    color: #1B1A40;
+    font-family: 'Inter', sans-serif;
+}
+
+.textmenvzav {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-left: -8px;
+    color: #1B1A40;
+    font-family: 'Inter', sans-serif;
+}
+
+.textmenvzav1 {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -7px;
+    margin-left: 10px;
+    padding: 3px;
+    color: #1B1A40;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.podsk {
+    margin-left: 295px;
+}
+
+.podskaz {
+    margin-top: -255px;
+}
+
+.yved {
+    margin-top: 144px;
+    margin-left: 1152px;
+    color: #1B1A40;
+}
+
+/* Переключатель - коробка вокруг ползунка */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    margin-left: 1400px;
+  }
+  
+  /* Скрыть флажок HTML по умолчанию */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* Ползунок */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #1B1A40;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #1B1A40;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+  .peregorodka {
+      margin-left: 756px;
+      margin-top: -640px;
+  }
+
+  .globalinf {
+    margin-top: -458px;
+    margin-left: 762px;
+  }
+
+  .personalinf {
+    margin-top: -837px;
+    margin-left: 729px;
+  }
