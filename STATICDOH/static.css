@@ -1,0 +1,332 @@
+.sebalsya {
+    margin-left: 113px;
+    margin-top: -53px;
+    padding: 10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bolder;
+    font-size: 43px;
+    height: 279px;
+    height: 52px;
+}
+
+/* Переключатель - коробка вокруг ползунка */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    margin-left: 1400px;
+  }
+  
+  /* Скрыть флажок HTML по умолчанию */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* Ползунок */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #1B1A40;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #1B1A40;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+ .rectag {
+     margin-top: 196px;
+     margin-left: 157px;
+ }
+
+ .textart {
+    display: flex;
+    justify-content: center;
+    font-size: 21px;
+    font-weight: bold;
+    margin-top: -30px;
+    margin-left: -1110px;
+    color: #1B1A40;
+    font-family: 'Inter', sans-serif;
+}
+
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sidenav {
+    width: 105px;
+    height: 100%;
+    background-color: #1B1A40;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 5px 1px 1px rgba(27, 26, 64, 0.123),
+    10px 2px 2px rgba(27, 26, 64, 0.05),
+    15px 4px 4px rgba(27, 26, 64, 0.05),
+    20px 8px 8px rgba(27, 26, 64, 0.12),
+    30px 16px 16px rgba(27, 26, 64, 0.05);
+}
+
+.sidenav a {
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #1B1A40;
+    padding: 10px;
+    margin: 15px 16px 35px;
+    border-radius: 10px;
+    color: black;
+    text-align: center;
+    transition: 0.8s;
+
+}
+
+.sidenav a:hover {
+    transform: translateY(-3px);
+    background: #413D99;
+    color: #fff;
+}
+
+.logo12 {
+    margin: 10px 11px;
+    padding: 20px;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 20px;
+}
+
+
+
+section {
+    margin-top: 85px;
+    margin-left: 170px;
+    height: 276px;
+    width: 184px;  
+}
+
+.sec3 {
+    margin-top: -574px;
+    margin-left: 391px;
+    height: 276px;
+    width: 184px;
+}
+
+.sec4 {
+    margin-top: 85px;
+    margin-left: 390px;
+    height: 276px;
+    width: 184px;
+}
+
+.sec5 {
+    margin-top: -573px;
+    margin-left: 610px;
+    height: 276px;
+    width: 184px;
+}
+
+.sec6 {
+    margin-top: 85px;
+    margin-left: 610px;
+    height: 276px;
+    width: 184px;
+}
+
+.sec7 {
+    margin-top: -573px;
+    margin-left: 833px;
+    height: 276px;
+    width: 184px;
+}
+
+.sec8 {
+    margin-top: 85px;
+    margin-left: 833px;
+    height: 276px;
+    width: 184px;
+}
+
+
+
+article {
+    background-color: #F6F7F8;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    margin: 0.5em;
+    padding: 1em;
+    height: 276px;
+    width: 184px;
+    box-shadow: 5px 0px 0px #8f0000;
+    margin-left: -18px;
+    margin-top: -63px;
+}
+
+.art2 {
+    background-color: #F6F7F8;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    margin: 0.5em;
+    padding: 1em;
+    height: 276px;
+    width: 184px;
+    box-shadow: 5px 0px 0px #5b008f;
+    margin-left: -18px;
+    margin-top: -63px;
+}
+
+.art3 {
+    background-color: #F6F7F8;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    margin: 0.5em;
+    padding: 1em;
+    height: 276px;
+    width: 184px;
+    box-shadow: 5px 0px 0px #818f00;
+    margin-left: -18px;
+    margin-top: -63px;
+}
+
+.art4 {
+    background-color: #F6F7F8;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    margin: 0.5em;
+    padding: 1em;
+    height: 276px;
+    width: 184px;
+    box-shadow: 5px 0px 0px #008f58;
+    margin-left: -18px;
+    margin-top: -63px;
+}
+
+.art5 {
+    background-color: #F6F7F8;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    margin: 0.5em;
+    padding: 1em;
+    height: 276px;
+    width: 184px;
+    box-shadow: 5px 0px 0px #000e8f;
+    margin-left: -18px;
+    margin-top: -63px;
+}
+
+.art6 {
+    background-color: #F6F7F8;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    margin: 0.5em;
+    padding: 1em;
+    height: 276px;
+    width: 184px;
+    box-shadow: 5px 0px 0px #885200;
+    margin-left: -18px;
+    margin-top: -63px;
+}
+
+.art7 {
+    background-color: #F6F7F8;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    margin: 0.5em;
+    padding: 1em;
+    height: 276px;
+    width: 184px;
+    box-shadow: 5px 0px 0px #008f5f;
+    margin-left: -18px;
+    margin-top: -63px;
+}
+
+.art5 {
+    background-color: #F6F7F8;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    margin: 0.5em;
+    padding: 1em;
+    height: 276px;
+    width: 184px;
+    box-shadow: 5px 0px 0px #67008f;
+    margin-left: -18px;
+    margin-top: -63px;
+}
+
+.ten {
+    height: 276px;
+    width: 165px;
+    border-radius: 10px;
+    box-shadow: 5px 1px 1px rgba(27, 26, 64, 0.123),
+    10px 2px 2px rgba(27, 26, 64, 0.05),
+    15px 4px 4px rgba(27, 26, 64, 0.05),
+    20px 8px 8px rgba(27, 26, 64, 0.12),
+    30px 16px 16px rgba(27, 26, 64, 0.05);
+}
+
+.textat {
+    font-size: 14px;
+    color: #1B1A40;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+
+.denga {
+    font-size: 53px;
+    color: #1B1A40;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.procent {
+    font-size: 38px;
+    color: #1B1A40;
+    font-weight: lighter;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
